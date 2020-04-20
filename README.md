@@ -1,16 +1,59 @@
-# Analyze A/B Test Results
+# Insights-into-the-TMDb-movie-data
 
-Required lbraries:
+> Second Project of the Udacity Data Analyst Nanodegree Program
+
+> Python, Data Analysis, Jupyter, Udacity
+
+---
+
+## Table of Contents 
+
+- [Description](#description)
+- [Example](#example)
+- [Installation](#installation)
+- [Credits](#credits)
+
+## Description
+
+This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.
+
+- Certain columns, like ‘cast’ and ‘genres’, contain multiple values separated by pipe (|) characters.
+
+- There are some odd characters in the ‘cast’ column. Don’t worry about cleaning them. You can leave them as is.
+
+- The final two columns ending with "adj" show the budget and revenue of the associated movie in terms of 2010 dollars, accounting for inflation over time
+
+---
+
+## Example
+
+```shell
+$ jupyter notebook
+```
+
+> open `data_analysis.ipynb` in browser
+
+---
+
+## Installation
+
+### Clone
+
+- Clone this repo to your local machine using `git clone https://github.com/UltraViolentLight/Insights-into-the-TMDb-movie-data`
+
+### Setup
+> update and install the following python packages/software first
+
+- Jupyter Notebook
+- Python 3.6
 - pandas
 - numpy
-- ramdom
 - matplotlib
-- statsmodels.api
 
-A/B tests are very commonly performed by data analysts and data scientists. It is important that you get some practice working with the difficulties of these.
+---
 
-For this project, you will be working to understand the results of an A/B test run by an e-commerce website. The company has developed a new web page in order to try and increase the number of users who "convert," meaning the number of users who decide to pay for the company's product. Your goal is to work through this notebook to help the company understand if they should implement this new page, keep the old page, or perhaps run the experiment longer to make their decision.
+## Credits
 
-The data and the Jupyter Notebook, which are all of the files you need to complete the project, are provided for you in a downloadable zip file in the resources tab (as well as under "Supporting Materials" below). Note that portions of the notebook reference back to quizzes that are linked in this lesson to ensure you are on the right track.
+- All Data was provided by the Udacity Data Analyst Nanodegree Program 
 
-Although the quizzes in this lesson are not necessary to successfully complete the project (though they are helpful), all of the items on the Project Rubric must meet specifications to successfully complete the project.
+
