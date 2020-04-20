@@ -1,8 +1,8 @@
-# Insights-into-the-TMDb-movie-data
+# Analyze A/B Test Results
 
-> Second Project of the Udacity Data Analyst Nanodegree Program
+> Third Project of the Udacity Data Analyst Nanodegree Program
 
-> Python, Data Analysis, Jupyter, Udacity
+> Python, A/B tests, Jupyter, Udacity
 
 ---
 
@@ -15,13 +15,9 @@
 
 ## Description
 
-This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.
+- A/B tests are very commonly performed by data analysts and data scientists.
 
-- Certain columns, like ‘cast’ and ‘genres’, contain multiple values separated by pipe (|) characters.
-
-- There are some odd characters in the ‘cast’ column. Don’t worry about cleaning them. You can leave them as is.
-
-- The final two columns ending with "adj" show the budget and revenue of the associated movie in terms of 2010 dollars, accounting for inflation over time
+- This Notebook provides a complete A/B test on a sample dataset `data/ab_data.csv`
 
 ---
 
@@ -31,7 +27,7 @@ This data set contains information about 10,000 movies collected from The Movie 
 $ jupyter notebook
 ```
 
-> open `data_analysis.ipynb` in browser
+> open `src/Analyze_ab_test_results_notebook.ipynb` in browser
 
 ---
 
@@ -39,7 +35,7 @@ $ jupyter notebook
 
 ### Clone
 
-- Clone this repo to your local machine using `git clone https://github.com/UltraViolentLight/Insights-into-the-TMDb-movie-data`
+- Clone this repo to your local machine using `git clone https://github.com/UltraViolentLight/Analyze-A-B-Test-Results`
 
 ### Setup
 > update and install the following python packages/software first
@@ -48,7 +44,9 @@ $ jupyter notebook
 - Python 3.6
 - pandas
 - numpy
+- ramdom
 - matplotlib
+- statsmodels.api
 
 ---
 
